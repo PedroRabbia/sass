@@ -1,0 +1,22 @@
+.hero h1 {
+  font-size: 36px;
+  font-family: 'Koulen', cursive;
+  -webkit-animation-name: titulo;
+          animation-name: titulo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.hero p {
+  font-size: 36px;
+  font-family: 'Koulen', cursive;
+  -webkit-animation-name: titulo;
+          animation-name: titulo;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+/*# sourceMappingURL=styles.css.map */

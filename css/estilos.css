@@ -1,0 +1,172 @@
+.background{
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 45%, rgba(15,4,102,0.927608543417367) 100%, rgba(0,46,55,1) 100%, rgba(0,93,112,1) 100%, rgba(0,212,255,1) 100%);
+}
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 100px;
+}
+/*menu*/
+    .menu-navegacion{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+    }
+.logo{
+    height: 100px;
+}
+.logo img{
+   display: block;
+   height: 100%;
+}
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+}
+.enlaces a{
+    text-transform: none;
+    color: white;
+    padding-left: 10px;
+}
+/*hero*/
+.hero{
+    height: 600px;
+    background-image: url("../assets/WhatsApp\ Image\ 2022-05-19\ at\ 12.39.47\ PM.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor--textos{
+    padding: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.hero p{
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.boton{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    color: blue;
+    font-family: 'Koulen', cursive;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.section2 h1 { 
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+.foto{
+    width: 200px;
+}
+
+/*keyframes titulos*/
+@keyframes titulo1{
+    0%{color: white;}
+    50%{color: blueviolet;}
+    100%{color: white;}
+}
+
+@keyframes titulo{
+    0%{color: black;}
+    50%{color: blueviolet;}
+    100%{ color: black; }
+}
+
+@keyframes p {
+    0%{color: white;}
+    50%{color: blueviolet;}
+    100%{color: white;}
+}
+/*keyframes titulos*/
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto 100px;
+    justify-content: space-between;
+    
+    
+}
+.grid-container div{
+    border:1px black;
+}
+
+.imagen{
+    width: 400px;
+    padding:10px;
+    border-radius: 30px;
+
+    
+}
+.titulosection{
+    color: white;
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+    animation-name: titulo1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    display: block;
+    text-align: center;
+
+}
+@keyframes titulo{
+    0%{color: white;}
+    50%{color: blueviolet;}
+    100%{color: white;}
+}
+
+/* Medias Queries*/
+@media (max-width:400px) {
+    .enlaces li{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width:400px) {
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        justify-content: space-between;
+        
+        
+    }
+}
+    
+
+    

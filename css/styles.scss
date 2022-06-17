@@ -1,0 +1,15 @@
+@mixin fontStyle {
+    font-size: 36px;
+    font-family: 'Koulen', cursive;
+    animation-name: titulo;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.hero h1{
+    @include fontStyle();
+}
+
+.hero p{
+    @include fontStyle();
+}
